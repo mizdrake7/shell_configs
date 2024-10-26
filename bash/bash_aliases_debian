@@ -1,0 +1,36 @@
+## Modify by @MAdMiZ
+
+##  Useful aliases
+# Replace ls with exa
+alias ls='exa -al --color=always --group-directories-first --icons'
+alias la='exa -a --color=always --group-directories-first --icons'
+alias ll='exa -l --color=always --group-directories-first --icons'
+alias lt='exa -aT --color=always --group-directories-first --icons'
+alias l.="exa -a | egrep '^\.'"
+alias ip="ip -c"
+
+# Common use
+alias grubup="sudo update-grub"
+alias tarnow='tar -acf '
+alias untar='tar -xvf '
+alias wget='wget -c '
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Get the error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
+
+# Personal
+alias update="sudo apt update ; sudo apt upgrade ; sudo apt-get dist-upgrade ; sudo apt autoremove"
+alias H="htop"
+alias neofetch="fastfetch"
