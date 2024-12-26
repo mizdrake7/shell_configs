@@ -8,6 +8,9 @@ alias ll='exa -l --color=always --group-directories-first --icons'
 alias lt='exa -aT --color=always --group-directories-first --icons'
 alias l.="exa -a | egrep '^\.'"
 alias ip="ip -c"
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
 
 # Common use
 alias grubup="sudo update-grub"
