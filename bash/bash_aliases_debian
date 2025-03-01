@@ -34,6 +34,7 @@ alias egrep='egrep --color=auto'
 alias jctl="journalctl -p 3 -xb"
 
 # Personal
-alias update="sudo apt update ; sudo apt upgrade ; sudo apt-get dist-upgrade ; sudo apt autoremove"
+alias update="sudo apt update ; sudo apt upgrade -y ; sudo apt-get dist-upgrade ; sudo apt autoremove"
 alias H="htop"
 alias neofetch="fastfetch"
+alias py3="python3"
