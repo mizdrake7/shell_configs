@@ -39,3 +39,12 @@ alias H="htop"
 alias neofetch="fastfetch"
 alias py3="python3"
 alias cls="clear"
+
+# Git aliases
+alias gc="git cherry-pick"
+alias gca="git cherry-pick --abort"
+alias gcs="git cherry-pick --skip"
+alias gf="git fetch"
+alias gr="git revert"
+alias grh="git reset --hard HEAD~1"
+alias grs="git reset --soft HEAD~1"
